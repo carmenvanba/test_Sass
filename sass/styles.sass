@@ -1,3 +1,5 @@
+@import "_mixin.sass";
+    
 $ancho: 1080px
 $color-letra: #AAAABB
 $altura: 514px
@@ -54,15 +56,20 @@ a
 .decimo
     width: partir($ancho,10)
 
-@mixin border-radius($radius)
-    -webkit-border-radius: $radius
-        -moz-border-radius: $radius
-            -ms-border-radius: $radius
-                border-radius: $radius
+
+
 
 .box 
     @include border-radius(5px)
 
+    
 @for $p from 2 through 12
     .col-#p
         widows: 100/$p+"%"
+
+$p: 2
+
+@while $p <= 12
+    .col-while-#p
+        width: 100/$p+"%"
+
