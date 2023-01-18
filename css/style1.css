@@ -1,0 +1,45 @@
+/* line 5, ../../../Desktop/Github/test_Sass/sass/style1.scss */
+.contenedor, .contenedor-con-altura {
+  width: 1280px;
+}
+
+/* line 9, ../../../Desktop/Github/test_Sass/sass/style1.scss */
+h1, h2, h3, p {
+  color: #AAAABB;
+}
+
+/* line 13, ../../../Desktop/Github/test_Sass/sass/style1.scss */
+.contenedor-con-altura {
+  height: 514px;
+}
+
+/* line 18, ../../../Desktop/Github/test_Sass/sass/style1.scss */
+ul {
+  font-size: 1.2rem;
+  color: red;
+}
+
+/* line 23, ../../../Desktop/Github/test_Sass/sass/style1.scss */
+ul {
+  font-size: 1.2rem;
+  color: red;
+}
+
+/* line 27, ../../../Desktop/Github/test_Sass/sass/style1.scss */
+ul ul {
+  font-size: 0.7rem;
+  color: green;
+}
+
+/* line 31, ../../../Desktop/Github/test_Sass/sass/style1.scss */
+ul ul ul {
+  font-size: 0.5rem;
+  color: blue;
+}
+
+/* line 34, ../../../Desktop/Github/test_Sass/sass/style1.scss */
+ul ul ul ul {
+  color: grey;
+}
+
+/*# sourceMappingURL=style1.css.map */

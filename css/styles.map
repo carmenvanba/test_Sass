@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../sass/styles.sass"
+	],
+	"sourcesContent": [
+		"$ancho: 1080px;\n$color-letra: #AAAABB;\n$altura: 514px;\n\n.contenedor {\n    width: $ancho; }\n\nh1,h2,h3,p {\n    color: $color-letra; }\n\n.contenedor-con-altura {\n    @extend .contenedor;\n    height: $altura;\n    color: blue; }\n\nul {\n    font-size: 1.2rem;\n    color: red;\n    ul {\n        font-size: 0.7rem;\n        color: green;\n        ul {\n            font-size: 0.5rem;\n            color: blue;\n            ul {\n                color: grey; } } } }\n\na {\n    color: blue;\n    text-decoration: none;\n    font-size: 1.2rem;\n\n    &:hover {\n        color: green;\n        text-decoration: underline; }\n    &:focus {\n        color: red;\n        text-decoration: none; }\n    &.enlace_propio {\n        color: red; } }\n\n.mitad {\n    width: ($ancho/2); }\n\n.cuarto {\n    width: ($ancho/4); }\n\n.octavo {\n    width: ($ancho/8); }\n\n@function partir($tam,$num_partes) {\n    @return ($tam/$num_partes); }\n\n.decimo {\n    width: partir($ancho,10); }\n\n@mixin border-radius($radius) {\n    -webkit-border-radius: $radius {\n        -moz-border-radius: $radius {\n            -ms-border-radius: $radius {\n                border-radius: $radius; } } } }\n\n.box {\n    @include border-radius(5px); }\n"
+	],
+	"names": [],
+	"mappings": ";AAIA,AAAA,WAAW,EAMX,sBAAsB,CANV;EACR,KAAK,EALD,MAAM;CAKM;;;AAEpB,AAAA,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,CAAC,CAAC;EACP,KAAK,EAPK,OAAO;CAOK;;;AAE1B,AAAA,sBAAsB,CAAC;EAEnB,MAAM,EAVD,KAAK;EAWV,KAAK,EAAE,IAAI;CAAG;;;AAElB,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,GAAG;CAQsB;;;AAVpC,AAGI,EAHF,CAGE,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,KAAK;CAKc;;;AAVlC,AAMQ,EANN,CAGE,EAAE,CAGE,EAAE,CAAC;EACC,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,IAAI;CAES;;;AAVhC,AASY,EATV,CAGE,EAAE,CAGE,EAAE,CAGE,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CAAG;;;AAE9B,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,IAAI;EACX,eAAe,EAAE,IAAI;EACrB,SAAS,EAAE,MAAM;CASE;;;AAZvB,AAKI,CALH,AAKI,MAAM,CAAC;EACJ,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,SAAS;CAAG;;;AAPrC,AAQI,CARH,AAQI,MAAM,CAAC;EACJ,KAAK,EAAE,GAAG;EACV,eAAe,EAAE,IAAI;CAAG;;;AAVhC,AAWI,CAXH,AAWI,cAAc,CAAC;EACZ,KAAK,EAAE,GAAG;CAAG;;;AAErB,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,KAAU;CAAG;;;AAExB,AAAA,OAAO,CAAC;EACJ,KAAK,EAAE,KAAU;CAAG;;;AAExB,AAAA,OAAO,CAAC;EACJ,KAAK,EAAE,KAAU;CAAG;;;AAKxB,AAAA,OAAO,CAAC;EACJ,KAAK,EAHG,KAAkB;CAGC;;;AAQ/B,AAAA,IAAI,CAAC;EALD,qBAAqB,EAME,GAAG;EALtB,wCAAkB,EAKC,GAAG;EAJlB,0DAAiB,EAIF,GAAG;EAHd,wEAAa,EAGF,GAAG;CAAI"
+}

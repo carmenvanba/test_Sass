@@ -1,0 +1,39 @@
+$ancho: 1280px;
+$color-letra: #AAAABB;
+$altura: 514px;
+
+.contenedor {
+    width: $ancho;
+}
+
+h1, h2, h3, p {
+    color: $color-letra;
+}
+
+.contenedor-con-altura {
+    @extend .contenedor;
+    height: $altura;
+}
+
+ul {
+    font-size: 1.2rem;
+    color: red;
+}
+
+ul {
+    font-size: 1.2rem;
+    color: red;
+
+    ul {
+        font-size: 0.7rem;
+        color: green;
+
+        ul {
+            font-size: 0.5rem;
+            color: blue;
+            ul{
+                color: grey;
+            }
+        }
+    }
+}

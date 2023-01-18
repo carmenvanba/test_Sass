@@ -1,3 +1,92 @@
-h1{
-    color:blue;
+/* line 5, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+.contenedor, .contenedor-con-altura {
+  width: 1080px;
 }
+
+/* line 8, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+h1, h2, h3, p {
+  color: #AAAABB;
+}
+
+/* line 11, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+.contenedor-con-altura {
+  height: 514px;
+  color: blue;
+}
+
+/* line 16, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+ul {
+  font-size: 1.2rem;
+  color: red;
+}
+
+/* line 19, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+ul ul {
+  font-size: 0.7rem;
+  color: green;
+}
+
+/* line 22, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+ul ul ul {
+  font-size: 0.5rem;
+  color: blue;
+}
+
+/* line 25, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+ul ul ul ul {
+  color: grey;
+}
+
+/* line 28, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* line 33, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/* line 36, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+a:focus {
+  color: red;
+  text-decoration: none;
+}
+
+/* line 39, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+a.enlace_propio {
+  color: red;
+}
+
+/* line 42, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+.mitad {
+  width: 540px;
+}
+
+/* line 45, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+.cuarto {
+  width: 270px;
+}
+
+/* line 48, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+.octavo {
+  width: 135px;
+}
+
+/* line 54, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+.decimo {
+  width: 108px;
+}
+
+/* line 63, ../../../Desktop/Github/test_Sass/sass/styles.sass */
+.box {
+  -webkit-border-radius: 5px;
+  -webkit-border-radius--moz-border-radius: 5px;
+  -webkit-border-radius--moz-border-radius--ms-border-radius: 5px;
+  -webkit-border-radius--moz-border-radius--ms-border-radius-border-radius: 5px;
+}
+
+/*# sourceMappingURL=styles.css.map */
