@@ -62,3 +62,7 @@ a
 
 .box 
     @include border-radius(5px)
+
+@for $p from 2 through 12
+    .col-#p
+        widows: 100/$p+"%"
